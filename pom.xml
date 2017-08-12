@@ -15,7 +15,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ssZ</maven.build.timestamp.format>
         <buildDate>${maven.build.timestamp}</buildDate>
-        <prerequisites.maven.version>3.2.0</prerequisites.maven.version>
+        <prerequisites.maven.version>3.3.9</prerequisites.maven.version>
         <javac.encoding>UTF-8</javac.encoding>
         <javac.source.version>1.8</javac.source.version>
         <javac.target.version>1.8</javac.target.version>
@@ -46,4 +46,7 @@
 
     </properties>
 
+    <prerequisites>
+        <maven>${prerequisites.maven.version}</maven>
+    </prerequisites>
 </project>
